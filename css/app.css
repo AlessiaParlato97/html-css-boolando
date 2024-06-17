@@ -16,13 +16,31 @@ body {
     background-color: rgb(255, 104, 22);
 }
 
-h2 {
-    color: white;
-    font-size: 15px;
-    font-weight: 100;
+a {
+    color: currentColor;
+
 }
 
-.logo-scritta {
+ul {
+    display: flex;
+    justify-content: column-reverse;
+    list-style-type: none;
+    gap: 10px;
+    color: white;
+}
+
+ol {
+    padding: 10px;
+}
+
+li {
+    font-size: 15px;
+    font-weight: 100;
+    list-style-type: none;
+}
+
+
+.navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,6 +48,10 @@ h2 {
 
 .shop-icons {
     font-size: 15px;
+}
+
+img {
+    max-width: 100%;
 }
 
 .logo {
@@ -45,15 +67,21 @@ h2 {
 
 
 .container {
-    max-width: 800px;
-    margin: auto;
-    margin-bottom: 2px;
-    padding: 40px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px 100px;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .container-title {
     font-size: 20px;
     font-weight: 300;
+    padding: 20px 0px;
 }
 
 .booleando {
@@ -108,4 +136,9 @@ footer img {
 .centrale {
     display: flex;
     justify-content: center;
+}
+
+.col {
+    width: calc(100% / 3);
+    padding-right: 2px;
 }
