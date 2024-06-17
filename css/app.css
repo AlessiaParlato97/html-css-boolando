@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.page-header {
+    background-color: rgb(255, 104, 22);
+}
+
+h2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo-scritta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shop-icons {
+    font-size: 15px;
+}
+
+.logo {
+    width: 150px;
+    padding: 20px;
+    vertical-align: middle;
+
+}
+
+.page-content {
+    padding: 20px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 2px;
+    padding: 40px;
+}
+
+.container-title {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.booleando {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spedizione {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-page {
+    padding: 20px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.srl {
+    font-size: 12px;
+    font-weight: 900;
+    padding-bottom: 5px;
+
+}
+
+.info {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.simbol {
+    height: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
