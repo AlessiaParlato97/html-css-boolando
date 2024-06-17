@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color: rgb(255, 255, 255);
 }
@@ -16,7 +20,6 @@ h2 {
     color: white;
     font-size: 15px;
     font-weight: 100;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo-scritta {
@@ -51,7 +54,6 @@ h2 {
 .container-title {
     font-size: 20px;
     font-weight: 300;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .booleando {
@@ -66,14 +68,17 @@ h2 {
     align-items: center;
 }
 
+
+footer {
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .end-page {
-    padding: 20px;
     background-color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     color: white;
-    display: flex;
-    justify-content: space-around;
 
 }
 
@@ -85,13 +90,22 @@ h2 {
 }
 
 .info {
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .simbol {
-    height: 5px;
+
     display: flex;
     flex-wrap: wrap;
+}
+
+footer img {
+    height: 25px;
+}
+
+.centrale {
+    display: flex;
+    justify-content: center;
 }
